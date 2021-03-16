@@ -5,14 +5,19 @@
 }
 
 header{
-   
+   font-size: larger;
+   font-weight: bolder;
+   border-bottom: 5px navy;
 }
 
+.site-menu{
+   text-align: right;
+}
 
 /* portfolio */
 #portfolio{
     width: 90%;
-    height: 500px;
+    height: 200px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -22,6 +27,6 @@ header{
     text-align: center;
 }
 #portfolio div{
-    width: 200px;
-    height: 200px;
+    width: 40%;
+    height: 40%;
 }
