@@ -1,15 +1,25 @@
 /* Universal selectors  */
 *{
-    background-color:#fdfffc;
-    color:#353535;
+    background-color:#fff;
+    color:#242438;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Element Selectors */
 header{
-   font-size: larger;
-   font-weight: bolder;
-   border-bottom: 5px navy;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(67, 67, 71) ;
+}
+/* Class Selectors */
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
 }
 
-/* Class Selectors */
+/* ID Selectors */
