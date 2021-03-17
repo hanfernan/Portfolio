@@ -43,6 +43,11 @@ footer{
     /* this text color won't work and also why is the background like this??????? */
 }
 
+.hero{
+    background-image: Assets\CSS\Images\hero.jpg;
+    background-position: center;
+    
+}
 .contact-info li{
     list-style: none;
     display: inline-block;
