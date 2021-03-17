@@ -18,8 +18,7 @@ header h1 {
 }
 
 main {
-  display: grid;
-  grid-template-columns: 25% 75%;
+  display: flex;
 }
 
 footer {
@@ -35,15 +34,28 @@ footer {
 }
 .nav-links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 30px;
   background-color: rgb(67, 67, 71);
 }
 .nav-links li a {
   color: rgb(145, 233, 245);
 }
 .hero {
-  background-image: url(Assets\CSS\Images\hero.jpg);
+  background-image: url("../CSS/Images/hero.jpg");
   background-position: center;
+  height: 200px;
+}
+
+.hero h2{
+  background-color: rgb(145, 233, 245);
+  color: rgb(67, 67, 71);
+  margin: 0;
+  display: inline;
+  position: absolute;
+  font-size: 28px;
+  top: 200px;
+  right: 60px;
+  padding:10px
 }
 .contact-info li {
   list-style: none;
@@ -54,12 +66,22 @@ footer {
   border-right: 3px navy;
 }
 /* ID Selectors */
-#portfolio {
+/* #portfolio {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%; */
 }
 #surf-report span {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  background-image: url(Assets\CSS\Images\surf_report.jpg);
+  /* grid-column-start: 1;
+  grid-column-end: 2; */
+  background-image: url("..Assets\CSS\Images\surf_report.jpg");
 }
+
+/* #work {
+  display: flex;
+}
+
+#work div {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+} */
