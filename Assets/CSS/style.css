@@ -56,6 +56,15 @@ footer h3 {
   padding: 10px;
 }
 
+.mywork {
+  border-right: 5px solid rgb(67, 67, 71);
+  float: left;
+  padding: 20px;
+  text-align: right;
+}
+.workspan {
+  background-color: rgb(145, 233, 245);
+}
 .contact-info {
   list-style: none;
   justify-content: space-around;
@@ -76,7 +85,7 @@ footer h3 {
 #about-me h2 {
   border-right: 5px solid rgb(67, 67, 71);
   padding: 20px;
-  margin: 60px;
+  margin: 120px;
   text-align: right;
 }
 
@@ -85,51 +94,72 @@ footer h3 {
 }
 
 #work {
+  width: 75%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 #work h2 {
   border-right: 5px solid rgb(67, 67, 71);
   padding: 20px;
-  text-align: right;
+  float: left;
 }
 
-#work div {
-  width: 400px;
-  height: 300px;
+#work div:hover {
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
 }
 
 #surf-report {
   background-image: url("../CSS/Images/surfreport.jpg");
   background-position: center;
+  background-size: cover;
+  margin: 10px;
   height: 200px;
-  width: 100%;
+  width: 77%;
+  border: 3px solid rgb(145, 233, 245);
 }
 
 #led-wall {
   background-image: url("../CSS/Images/ledwall.jpg");
   background-position: center;
   background-size: cover;
-  height: 100px;
-  width: 100%;
+  margin: 10px;
+  height: 200px;
+  width: 37.5%;
+  border: 3px solid rgb(145, 233, 245);
 }
 
 #calculator {
   background-image: url("../CSS/Images/calculator.jpg");
   background-position: center;
   background-size: cover;
+  margin: 10px;
   height: 200px;
-  width: 100%;
+  width: 37.5%;
+  border: 3px solid rgb(145, 233, 245);
 }
 
 #pastel-puzzles {
   background-image: url("../CSS/Images/pastelpuzzle.jpg");
   background-position: center;
+  background-size: cover;
+  margin: 10px;
+  height: 200px;
+  width: 37.5%;
+  border: 3px solid rgb(145, 233, 245);
 }
 
 #run-buddy {
   background-image: url("../CSS/Images/runbuddy.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+  height: 200px;
+  width: 37.5%;
+  border: 3px solid rgb(145, 233, 245);
 }
 
 #contact-me {
@@ -140,5 +170,6 @@ footer h3 {
 #contact-me h2 {
   border-right: 5px solid rgb(67, 67, 71);
   padding: 20px;
+  margin: 40px;
   text-align: right;
 }
