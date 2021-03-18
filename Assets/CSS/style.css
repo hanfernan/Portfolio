@@ -9,7 +9,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 30px 10%; */
   background-color: rgb(67, 67, 71);
 }
 header h1 {
@@ -47,19 +46,18 @@ header h1 {
   right: 60px;
   padding: 10px;
 }
-.contact-info li {
+
+.contact-info {
   list-style: none;
+  justify-content: space-around;
+}
+
+.contact-info li {
   display: inline-block;
+  padding: 0px 30px;
 }
 
-.sub-heading {
-  border-right: 3px navy;
-}
 /* ID Selectors */
-
-#surf-report span {
-  background-image: url("..Assets\CSS\Images\surf_report.jpg");
-}
 
 #about-me {
   display: flex;
@@ -69,8 +67,69 @@ header h1 {
 #about-me h2 {
   border-right: 5px solid rgb(67, 67, 71);
   padding: 20px;
+  margin: 60px;
+  text-align: right;
 }
 
 #about-me div {
   padding: 30px;
+}
+
+#work {
+  display: flex;
+  flex-direction: row;
+}
+
+#work h2 {
+  border-right: 5px solid rgb(67, 67, 71);
+  padding: 20px;
+  text-align: right;
+}
+
+#work div {
+  width: 400px;
+  height: 300px;
+}
+
+#surf-report {
+  background-image: url("../CSS/Images/surfreport.jpg");
+  background-position: center;
+  height: 200px;
+  width: 100%;
+}
+
+#led-wall {
+  background-image: url("../CSS/Images/ledwall.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 100%;
+}
+
+#calculator {
+  background-image: url("../CSS/Images/calculator.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+#pastel-puzzles {
+  background-image: url("../CSS/Images/pastelpuzzle.jpg");
+  background-position: center;
+}
+
+#run-buddy {
+  background-image: url("../CSS/Images/runbuddy.jpg");
+}
+
+#contact-me {
+  display: flex;
+  min-height: auto;
+}
+
+#contact-me h2 {
+  border-right: 5px solid rgb(67, 67, 71);
+  padding: 20px;
+  text-align: right;
 }
