@@ -16,6 +16,15 @@ header h1 {
   color: rgb(67, 67, 71);
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer h3 {
+  color: lightskyblue;
+}
+
 /* Class Selectors */
 .nav-links {
   list-style: none;
